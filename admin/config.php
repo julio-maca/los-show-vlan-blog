@@ -1,13 +1,13 @@
 <?php 
 
 
-define('RUTA', 'http://localhost/blog/');
+define('RUTA', 'http://localhost/blog');
 
 
 $bd_config = array(
-	'basedatos' => 'curso_blog',
+	'basedatos' => 'blog_practica',
 	'usuario' => 'root',
-	'pass' => ''
+	'pass' => 'julio1212'
 );
 
 $blog_config = array(
@@ -16,7 +16,7 @@ $blog_config = array(
 );
 
 $blog_admin = array(
-	'usuario' => 'Carlos',
+	'usuario' => 'julio',
 	'password' => '123'
 );
 
