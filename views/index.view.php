@@ -3,8 +3,6 @@
 	<div class="contenedor">
 		<?php foreach($posts as $post): ?>
 			<div class="post">
-			<P>HOLAA
-		</P>
 				<article>
 					<h2 class="titulo"><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['titulo'] ?></a></h2>
 					<p class="fecha"><?php echo fecha($post['fecha']); ?></p>
